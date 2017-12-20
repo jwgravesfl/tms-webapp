@@ -1,27 +1,81 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import BannerLanding from '../components/BannerLanding'
 
-import pic11 from '../assets/images/pic11.jpg'
+import pic12 from '../assets/images/pic12.jpg'
+import pic13 from '../assets/images/pic13.jpg'
+import pic14 from '../assets/images/pic14.jpg'
 
 const Generic = (props) => (
     <div>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>The Mad Scientist - Live Music</title>
+            <meta name="description" content="Live Music" />
         </Helmet>
 
-        <div id="main" className="alt">
+        <BannerLanding />
+
+        <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Generic</h1>
+                        <h2>Open Mics</h2>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                    <p>
+                        Talent Filled Roster
+                    </p>
                 </div>
+            </section>
+            <section id="two" className="spotlights">
+                <section>
+                    <Link to="/#" className="image">
+                        <img src={pic12} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Tuesday 7 to 10 PM</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <ul className="actions">
+                                <li><Link to="/#" className="button">Learn more on Facebook</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/#" className="image">
+                        <img src={pic13} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Friday 9:30 to 2 AM</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <ul className="actions">
+                                <li><Link to="/#" className="button">Learn more on Facebook</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/#" className="image">
+                        <img src={pic14} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Sunday 3 to 7 PM</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <ul className="actions">
+                                <li><Link to="/#" className="button">Learn more on Facebook</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
             </section>
         </div>
 

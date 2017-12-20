@@ -30,38 +30,29 @@ class HomeIndex extends React.Component {
                                 <h3>Live Music & Open Mic</h3>
                                 <p>Event Calendar </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/world" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Live Music</h3>
                                 <p>Highly Entertaining with a Loyal Following</p>
                             </header>
-                            <Link to="/generic" className="link primary"></Link>
+                            <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Open Mics</h3>
                                 <p>Solo, Duo or Full Band - Equipment Available</p>
                             </header>
-                            <Link to="/elements" className="link primary"></Link>
+                            <Link to="/generic" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>About</h3>
                                 <p>Dale Johnston - The Mad Scientist</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/elements" className="link primary"></Link>
                         </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button">Back to Top</Link></li>
-                            </ul>
-
-                        </div>
                     </section>
                 </div>
 
